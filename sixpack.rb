@@ -27,21 +27,14 @@ Do not use Ruby’s ** operator for this!
 
 class Sixpack #allways in Capitalize
 	
-	def initialize(power)
-    @power = power
+	def power (base, exponent) 
+	base = base ** exponent
+	end
 	
-	end
-	def value(x)
-        x = x ** y	     
-
-	end
-	def exponent(y)
-        
-    
-	end
 end
 
-sixpack = Sixpack.new (3)#allways in Capitalize
-puts Sixpack.new.power
+#allways in Capitalize
+sixpack = Sixpack.new
+puts sixpack.power(3,4)
 
 
