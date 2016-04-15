@@ -31,17 +31,17 @@ class Sixpack #allways in Capitalize
     @power = power
 	
 	end
-	def value 
-	
+	def value(x)
+        x = x ** y	     
 
 	end
-	def exponent 
-    
+	def exponent(y)
+        
     
 	end
 end
 
-sixpack = Sixpack.new #allways in Capitalize
-sixpack.power
+sixpack = Sixpack.new (3)#allways in Capitalize
+puts Sixpack.new.power
 
 
