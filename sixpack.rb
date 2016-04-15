@@ -32,12 +32,12 @@ class Sixpack #allways in Capitalize
 	
 	end
 	def value 
-	value = 3
+	
 
 	end
 	def exponent 
     
-    exponent = 4
+    
 	end
 end
 
