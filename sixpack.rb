@@ -23,4 +23,5 @@ puts "#{result}"
 #but thats it's not correct, becuase I'm using ** and the exercices says that you can not usit
 #i would like to say that power will be multiply it self as much times at exponent variable is
 
-	
+#commit
+git push -u origin master	
